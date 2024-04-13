@@ -12,12 +12,12 @@ import {
   useParams,
   Navigate,
 } from "react-router-dom";
-import Intro from "./Intro";
+import Intro from "./components/Intro";
 import { NavLink } from "react-router-dom";
 
-import Task1 from "./1";
-import Task2 from "./2";
-import Task3 from "./3";
+import Task1 from "./components/1";
+import Task2 from "./components/2";
+import Task3 from "./components/3";
 
 const Menu: FunctionComponent = () => {
   return (

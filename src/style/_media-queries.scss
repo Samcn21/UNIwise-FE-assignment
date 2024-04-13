@@ -1,0 +1,53 @@
+@use 'sass:map';
+
+// breakpoints
+$breakpoints: (
+    xs: 480px,
+    sm: 768px,
+    md: 960px,
+    lg: 1280px
+);
+
+@mixin bp--mobile {
+    @media screen and (max-width: (map.get($breakpoints, 'sm'))) {
+        @content;
+    }
+}
+
+// tablet media query
+@mixin bp--tablet {
+    @media screen and (min-width: (map.get($breakpoints, 'sm') + 1px)) and (max-width: (map.get($breakpoints, 'md'))) {
+        @content;
+    }
+}
+
+// when the breakpoint is either "Laptop" or "Widescreen" we categorize it as "Desktop"
+@mixin bp--desktop {
+    @media screen and (min-width: (map.get($breakpoints, 'md') + 1px)) {
+        @content;
+    }
+}
+
+@mixin bp--mobile-portrait {
+    @media screen and (max-width: (map.get($breakpoints, 'xs'))) {
+        @content;
+    }
+}
+
+@mixin bp--mobile-landscape {
+    @media screen and (min-width: (map.get($breakpoints, 'xs') + 1px)) and (max-width: (map.get($breakpoints, 'sm'))) {
+        @content;
+    }
+}
+
+@mixin bp--laptop {
+    @media screen and (min-width: (map.get($breakpoints, 'md') + 1px)) and (max-width: (map.get($breakpoints, 'lg'))) {
+        @content;
+    }
+}
+
+@mixin bp--widescreen {
+    @media screen and (min-width: (map.get($breakpoints, 'lg') + 1px)) {
+        @content;
+    }
+}

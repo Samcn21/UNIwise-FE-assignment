@@ -1,0 +1,24 @@
+@import '../../style/media-queries';
+
+#task-2 {
+  min-height: 768px;
+}
+
+.search-field {
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;;
+
+  @include bp--tablet {
+    width: 500px;
+  }
+
+  @include bp--desktop {
+    width: 500px;
+  }
+}
+
+.highlight-search-term {
+  background-color: #ffff00;
+}
