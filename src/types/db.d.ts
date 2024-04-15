@@ -1,4 +1,4 @@
-export interface Country {
+export type Country = {
     id: string;
     name: string;
     short_code: string;

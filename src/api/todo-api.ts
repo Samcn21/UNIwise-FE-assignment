@@ -12,7 +12,7 @@ const todoApi = {
     getTodo(instance: AxiosInstance, id: string) {
         return fetchApi<TodoResponse>(() => instance.get(`/${id}`));
     },    
-     addTodo(instance: AxiosInstance, config: AxiosRequestConfig) {
+    addTodo(instance: AxiosInstance, config: AxiosRequestConfig) {
       return fetchApi<any>(()=> instance.post('', config))
     },
     updateTodo(instance: AxiosInstance, id: string, config: AxiosRequestConfig) {
