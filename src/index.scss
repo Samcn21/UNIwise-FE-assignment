@@ -94,3 +94,19 @@ nav.menu {
 .input-field--error {
   border-color: #c87872;
 }
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.console-log {
+  border: 1px solid black;
+}
+
+.console-info {
+  border: 1px solid blue;
+}
+
+.console-error {
+  border: 1px solid red;
+}

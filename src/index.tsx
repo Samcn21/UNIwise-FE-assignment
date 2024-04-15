@@ -12,23 +12,23 @@ import {
   useParams,
   Navigate,
 } from "react-router-dom";
-import Intro from "./components/Intro";
+import Intro from "./components/assignments/Intro";
 import { NavLink } from "react-router-dom";
 
-import Task1 from "./components/1";
-import Task2 from "./components/2";
-import Task3 from "./components/3";
+import Assignment1 from "./components/assignments/1/Assignment1";
+import Assignment2 from "./components/assignments/2/Assignment2";
+import Assignment3 from "./components/assignments/3/Assignment3";
 
 const Menu: FunctionComponent = () => {
   return (
     <nav className="menu">
       <NavLink to="/">Intro</NavLink>
 
-      <NavLink to="/task/1">Task 1</NavLink>
+      <NavLink to="/task/1">Assignment 1</NavLink>
 
-      <NavLink to="/task/2">Task 2</NavLink>
+      <NavLink to="/task/2">Assignment 2</NavLink>
 
-      <NavLink to="/task/3">Task 3</NavLink>
+      <NavLink to="/task/3">Assignment 3</NavLink>
     </nav>
   );
 };
@@ -70,7 +70,7 @@ const Task: FunctionComponent = () => {
             </p>
   
             <TaskContainer>
-              <Task1 />
+              <Assignment1 />
             </TaskContainer>
           </>
         );
@@ -91,7 +91,7 @@ const Task: FunctionComponent = () => {
           </p>
 
           <TaskContainer>
-            <Task2 />
+            <Assignment2 />
           </TaskContainer>
         </>
       );
@@ -120,7 +120,7 @@ const Task: FunctionComponent = () => {
           </p>
 
           <TaskContainer>
-            <Task3 />
+            <Assignment3 />
           </TaskContainer>
         </>
       );

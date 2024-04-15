@@ -2,7 +2,7 @@ import React, { FunctionComponent, useState } from "react";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 // styles
-import "./task-1.scss";
+import "../style.scss";
 
 const Task1: FunctionComponent = () => {
   // states
@@ -64,7 +64,7 @@ const Task1: FunctionComponent = () => {
   };
 
   return (
-    <div id="task-1">
+    <div id="assignment-1">
       <form onSubmit={(event) => submitForm(event)}>
         <div className="login-container">
 
@@ -99,7 +99,7 @@ const Task1: FunctionComponent = () => {
                 onChange={(event) => setPassword(event.currentTarget.value)}
                 value={password}         
               />
-              <span className="password-toggle-icon" onClick={togglePasswordVisibility}>
+              <span className="password-toggle__icon" onClick={togglePasswordVisibility}>
                 {canShowPassword ? <FaEyeSlash /> : <FaEye />}
               </span>            
             </div>
@@ -107,7 +107,7 @@ const Task1: FunctionComponent = () => {
           </div>
 
           <div className="form-row">
-            <button className="login-button">Login</button>
+            <button className="button">Login</button>
           </div>
 
         </div>

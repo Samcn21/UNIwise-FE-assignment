@@ -958,28 +958,64 @@
   ],
   "todoList": [
     {
-      "description:": "Finish task 1 from UNIwise",
-      "id": 1,
-      "isDone": true,
-      "title:": "task 1"
-    },
-    {
-      "description:": "Finish task 2 from UNIwise",
-      "id": 2,
-      "isDone": true,
-      "title:": "task 2"
-    },
-    {
-      "description:": "Finish task 3 from UNIwise",
-      "id": 3,
+      "id": "4",
       "isDone": false,
-      "title:": "task 3"
+      "title": "Submit UNIwise assignment"
     },
     {
-      "description:": "Push the code, submit the assignments and send a notification email to UNIwise",
-      "id": 4,
-      "isDone": false,
-      "title:": "Submit UNIwise assignment"
+      "id": "5bb0",
+      "title": "Use shared components",
+      "isDone": false
+    },
+    {
+      "id": "34ac",
+      "title": "Refactoring",
+      "isDone": false
+    },
+    {
+      "id": "d496",
+      "title": "Assignment 1 of UNIwise",
+      "isDone": true
+    },
+    {
+      "id": "39e0",
+      "title": "Assignment 2 of UNIwise",
+      "isDone": true
+    },
+    {
+      "id": "7462",
+      "title": "Assignment 3 of UNIwise",
+      "isDone": true
+    },
+    {
+      "id": "cfbc",
+      "title": "Assignment 3 Styling",
+      "isDone": false
+    },
+    {
+      "id": "48e3",
+      "title": "Final Tweak",
+      "isDone": false
+    },
+    {
+      "id": "905b",
+      "title": "Technical Interview with UNIwise",
+      "isDone": false
+    },
+    {
+      "id": "a551",
+      "title": "Use shared / global styling",
+      "isDone": false
+    },
+    {
+      "id": "270e",
+      "title": "Highlight searchterm for TODO app",
+      "isDone": false
+    },
+    {
+      "id": "3e1e",
+      "title": "Use Search Component in Assignment 2",
+      "isDone": false
     }
   ]
 }

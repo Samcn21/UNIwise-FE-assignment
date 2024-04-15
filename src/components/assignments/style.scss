@@ -1,0 +1,170 @@
+@import '../../style/media-queries';
+
+#assignment-1 {
+    .login-container {
+      box-sizing: border-box;
+      width: 100%;
+      margin: auto;
+      
+      @include bp--tablet {
+        width: 500px;
+      }
+
+      @include bp--desktop {
+        width: 500px;
+      }
+    }
+
+    .password-field-container {
+      position: relative;
+    }
+
+    .form-required,
+    .form-error {
+      color: #f2545b;
+    }
+
+    .password-toggle__icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 10px; 
+      cursor: pointer;
+    }
+}
+
+#assignment-2,
+#assignment-3 {
+  min-height: 768px;
+}
+
+#assignment-3 {
+  .container {
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  width: 100%;
+
+
+}
+
+.search-field__input-container {
+  width: 65%;
+}  
+
+.search-field__button-container {
+  width: 35%;
+}
+
+.search-field {
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.field-label {
+  color: #212D3A;
+}
+
+.add-todo__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  
+  width: 100%;
+  margin: auto;
+    
+  @include bp--tablet {
+    width: 500px;
+  }
+
+  @include bp--desktop {
+    width: 500px;
+  }
+}
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  background-color: #fdfdfd;
+  border: 1px solid #8d8d8d;
+  border-radius: 5px;
+}
+
+.task__container {
+  flex-grow: 1; 
+  margin: 0 10px; 
+  //border: 1px dashed blue;
+}
+
+.delete__container {
+  width: 10%;
+  text-align: right;
+}
+
+.delete-icon {
+  color: #f2545b; 
+  cursor: pointer; 
+}
+
+.checkbox {
+  width: 20px;
+  cursor: pointer; 
+}
+
+.search__container {
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  padding: 10px 5px;
+  
+    
+  @include bp--tablet {
+    width: 500px;
+  }
+
+  @include bp--desktop {
+    width: 500px;
+  }
+}
+
+.button {
+  font-size: 12px;
+  line-height: 12px;      
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  transition: background .15s ease-in-out;
+  background-color: #ff7a59;
+  border-color: #ff7a59;
+  color: #fff;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 12px 24px;
+
+  &:hover {
+    background: #f5876b;
+  }
+}
+
+
+
+.highlight-search-term {
+  background-color: #ffff00;
+}

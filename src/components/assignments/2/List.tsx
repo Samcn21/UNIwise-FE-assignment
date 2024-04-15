@@ -4,7 +4,7 @@ import React, { FunctionComponent } from "react";
 import Item from "./Item";
 
 // types
-import { Country } from "../../types/db";
+import type { Country } from "../../../types/db";
 
 interface ListProps {
   inventory: Country[];

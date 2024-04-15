@@ -1,17 +1,17 @@
 import React, { FunctionComponent, useState } from "react";
 
 // data
-import data from "../../data/db.json";
+import data from "../../../data/db.json";
 
 // styles
-import "./task-2.scss";
+import "../style.scss";
 
 // components
 import Input from "./Input";
 import List from "./List";
 
 // types
-import { Country } from "../../types/db";
+import { Country } from "../../../types/db";
 
 const Task2: FunctionComponent = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -28,7 +28,7 @@ const Task2: FunctionComponent = () => {
   };
 
   return (
-    <div id="task-2">
+    <div id="assignment-2">
       <Input searchTerm={searchTerm} handleSearch={handleSearch} />
       <List inventory={inventory} searchTerm={searchTerm}/>
     </div>

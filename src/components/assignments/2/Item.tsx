@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 
 // types
-import { Country } from "../../types/db";
+import { Country } from "../../../types/db";
 interface ItemProps {
   item: Country;
   searchTerm: string;
