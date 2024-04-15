@@ -964,7 +964,7 @@
     },
     {
       "id": "34ac",
-      "isDone": false,
+      "isDone": true,
       "title": "Refactoring"
     },
     {
@@ -989,7 +989,7 @@
     },
     {
       "id": "48e3",
-      "isDone": false,
+      "isDone": true,
       "title": "Final Tweak"
     },
     {
