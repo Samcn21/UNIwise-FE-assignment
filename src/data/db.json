@@ -1,957 +1,957 @@
 {
   "countries": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Afghanistan",
       "short_code": "AF"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Albania",
       "short_code": "AL"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Algeria",
       "short_code": "DZ"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Andorra",
       "short_code": "AD"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Angola",
       "short_code": "AO"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Antigua and Barbuda",
       "short_code": "AG"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Argentina",
       "short_code": "AR"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Armenia",
       "short_code": "AM"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Australia",
       "short_code": "AU"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Austria",
       "short_code": "AT"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Azerbaijan",
       "short_code": "AZ"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Bahamas",
       "short_code": "BS"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Bahrain",
       "short_code": "BH"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Bangladesh",
       "short_code": "BD"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Barbados",
       "short_code": "BB"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Belarus",
       "short_code": "BY"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Belgium",
       "short_code": "BE"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Belize",
       "short_code": "BZ"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Benin",
       "short_code": "BJ"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Bhutan",
       "short_code": "BT"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Bolivia",
       "short_code": "BO"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Bosnia and Herzegovina",
       "short_code": "BA"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Botswana",
       "short_code": "BW"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Brazil",
       "short_code": "BR"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Brunei Darussalam",
       "short_code": "BN"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Bulgaria",
       "short_code": "BG"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Burkina Faso",
       "short_code": "BF"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Burundi",
       "short_code": "BI"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Cambodia",
       "short_code": "KH"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Cameroon",
       "short_code": "CM"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Canada",
       "short_code": "CA"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Cape Verde",
       "short_code": "CV"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Central African Republic",
       "short_code": "CF"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Chad",
       "short_code": "TD"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Chile",
       "short_code": "CL"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "China",
       "short_code": "CN"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Colombia",
       "short_code": "CO"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Comoros",
       "short_code": "KM"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Congo",
       "short_code": "CG"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Congo, Democratic Republic of the",
       "short_code": "CD"
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Costa Rica",
       "short_code": "CR"
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Croatia",
       "short_code": "HR"
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "Cuba",
       "short_code": "CU"
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "Cyprus",
       "short_code": "CY"
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "Czech Republic",
       "short_code": "CZ"
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "Denmark",
       "short_code": "DK"
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "Djibouti",
       "short_code": "DJ"
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "Dominica",
       "short_code": "DM"
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "Dominican Republic",
       "short_code": "DO"
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Timor-Leste",
       "short_code": "TL"
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "Ecuador",
       "short_code": "EC"
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "Egypt",
       "short_code": "EG"
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "El Salvador",
       "short_code": "SV"
     },
     {
-      "id": 54,
+      "id": "54",
       "name": "Equatorial Guinea",
       "short_code": "GQ"
     },
     {
-      "id": 55,
+      "id": "55",
       "name": "Eritrea",
       "short_code": "ER"
     },
     {
-      "id": 56,
+      "id": "56",
       "name": "Estonia",
       "short_code": "EE"
     },
     {
-      "id": 57,
+      "id": "57",
       "name": "Ethiopia",
       "short_code": "ET"
     },
     {
-      "id": 58,
+      "id": "58",
       "name": "Fiji",
       "short_code": "FJ"
     },
     {
-      "id": 59,
+      "id": "59",
       "name": "Finland",
       "short_code": "FI"
     },
     {
-      "id": 60,
+      "id": "60",
       "name": "France",
       "short_code": "FR"
     },
     {
-      "id": 61,
+      "id": "61",
       "name": "Gabon",
       "short_code": "GA"
     },
     {
-      "id": 62,
+      "id": "62",
       "name": "Gambia",
       "short_code": "GM"
     },
     {
-      "id": 63,
+      "id": "63",
       "name": "Georgia",
       "short_code": "GE"
     },
     {
-      "id": 64,
+      "id": "64",
       "name": "Germany",
       "short_code": "DE"
     },
     {
-      "id": 65,
+      "id": "65",
       "name": "Ghana",
       "short_code": "GH"
     },
     {
-      "id": 66,
+      "id": "66",
       "name": "Greece",
       "short_code": "GR"
     },
     {
-      "id": 67,
+      "id": "67",
       "name": "Grenada",
       "short_code": "GD"
     },
     {
-      "id": 68,
+      "id": "68",
       "name": "Guatemala",
       "short_code": "GT"
     },
     {
-      "id": 69,
+      "id": "69",
       "name": "Guinea",
       "short_code": "GN"
     },
     {
-      "id": 70,
+      "id": "70",
       "name": "Guinea-Bissau",
       "short_code": "GW"
     },
     {
-      "id": 71,
+      "id": "71",
       "name": "Guyana",
       "short_code": "GY"
     },
     {
-      "id": 72,
+      "id": "72",
       "name": "Haiti",
       "short_code": "HT"
     },
     {
-      "id": 73,
+      "id": "73",
       "name": "Honduras",
       "short_code": "HN"
     },
     {
-      "id": 74,
+      "id": "74",
       "name": "Hungary",
       "short_code": "HU"
     },
     {
-      "id": 75,
+      "id": "75",
       "name": "Iceland",
       "short_code": "IS"
     },
     {
-      "id": 76,
+      "id": "76",
       "name": "India",
       "short_code": "IN"
     },
     {
-      "id": 77,
+      "id": "77",
       "name": "Indonesia",
       "short_code": "ID"
     },
     {
-      "id": 78,
+      "id": "78",
       "name": "Iran",
       "short_code": "IR"
     },
     {
-      "id": 79,
+      "id": "79",
       "name": "Iraq",
       "short_code": "IQ"
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Ireland",
       "short_code": "IE"
     },
     {
-      "id": 81,
+      "id": "81",
       "name": "Israel",
       "short_code": "IL"
     },
     {
-      "id": 82,
+      "id": "82",
       "name": "Italy",
       "short_code": "IT"
     },
     {
-      "id": 83,
+      "id": "83",
       "name": "Jamaica",
       "short_code": "JM"
     },
     {
-      "id": 84,
+      "id": "84",
       "name": "Japan",
       "short_code": "JP"
     },
     {
-      "id": 85,
+      "id": "85",
       "name": "Jordan",
       "short_code": "JO"
     },
     {
-      "id": 86,
+      "id": "86",
       "name": "Kazakhstan",
       "short_code": "KZ"
     },
     {
-      "id": 87,
+      "id": "87",
       "name": "Kenya",
       "short_code": "KE"
     },
     {
-      "id": 88,
+      "id": "88",
       "name": "Kiribati",
       "short_code": "KI"
     },
     {
-      "id": 89,
+      "id": "89",
       "name": "Korea, Democratic People's Republic of",
       "short_code": "KP"
     },
     {
-      "id": 90,
+      "id": "90",
       "name": "Korea, Republic of",
       "short_code": "KR"
     },
     {
-      "id": 91,
+      "id": "91",
       "name": "Kuwait",
       "short_code": "KW"
     },
     {
-      "id": 92,
+      "id": "92",
       "name": "Kyrgyzstan",
       "short_code": "KG"
     },
     {
-      "id": 93,
+      "id": "93",
       "name": "Lao People's Democratic Republic",
       "short_code": "LA"
     },
     {
-      "id": 94,
+      "id": "94",
       "name": "Latvia",
       "short_code": "LV"
     },
     {
-      "id": 95,
+      "id": "95",
       "name": "Lebanon",
       "short_code": "LB"
     },
     {
-      "id": 96,
+      "id": "96",
       "name": "Lesotho",
       "short_code": "LS"
     },
     {
-      "id": 97,
+      "id": "97",
       "name": "Liberia",
       "short_code": "LR"
     },
     {
-      "id": 98,
+      "id": "98",
       "name": "Libya",
       "short_code": "LY"
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Liechtenstein",
       "short_code": "LI"
     },
     {
-      "id": 100,
+      "id": "100",
       "name": "Lithuania",
       "short_code": "LT"
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "Luxembourg",
       "short_code": "LU"
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Madagascar",
       "short_code": "MG"
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Malawi",
       "short_code": "MW"
     },
     {
-      "id": 104,
+      "id": "104",
       "name": "Malaysia",
       "short_code": "MY"
     },
     {
-      "id": 105,
+      "id": "105",
       "name": "Maldives",
       "short_code": "MV"
     },
     {
-      "id": 106,
+      "id": "106",
       "name": "Mali",
       "short_code": "ML"
     },
     {
-      "id": 107,
+      "id": "107",
       "name": "Malta",
       "short_code": "MT"
     },
     {
-      "id": 108,
+      "id": "108",
       "name": "Marshall Islands",
       "short_code": "MH"
     },
     {
-      "id": 109,
+      "id": "109",
       "name": "Mauritania",
       "short_code": "MR"
     },
     {
-      "id": 110,
+      "id": "110",
       "name": "Mauritius",
       "short_code": "MU"
     },
     {
-      "id": 111,
+      "id": "111",
       "name": "Mexico",
       "short_code": "MX"
     },
     {
-      "id": 112,
+      "id": "112",
       "name": "Micronesia, Federated States of",
       "short_code": "FM"
     },
     {
-      "id": 113,
+      "id": "113",
       "name": "Moldova",
       "short_code": "MD"
     },
     {
-      "id": 114,
+      "id": "114",
       "name": "Monaco",
       "short_code": "MC"
     },
     {
-      "id": 115,
+      "id": "115",
       "name": "Mongolia",
       "short_code": "MN"
     },
     {
-      "id": 116,
+      "id": "116",
       "name": "Montenegro",
       "short_code": "ME"
     },
     {
-      "id": 117,
+      "id": "117",
       "name": "Morocco",
       "short_code": "MA"
     },
     {
-      "id": 118,
+      "id": "118",
       "name": "Mozambique",
       "short_code": "MZ"
     },
     {
-      "id": 119,
+      "id": "119",
       "name": "Myanmar",
       "short_code": "MM"
     },
     {
-      "id": 120,
+      "id": "120",
       "name": "Namibia",
       "short_code": "NA"
     },
     {
-      "id": 121,
+      "id": "121",
       "name": "Nauru",
       "short_code": "NR"
     },
     {
-      "id": 122,
+      "id": "122",
       "name": "Nepal",
       "short_code": "NP"
     },
     {
-      "id": 123,
+      "id": "123",
       "name": "Netherlands",
       "short_code": "NL"
     },
     {
-      "id": 124,
+      "id": "124",
       "name": "New Zealand",
       "short_code": "NZ"
     },
     {
-      "id": 125,
+      "id": "125",
       "name": "Nicaragua",
       "short_code": "NI"
     },
     {
-      "id": 126,
+      "id": "126",
       "name": "Niger",
       "short_code": "NE"
     },
     {
-      "id": 127,
+      "id": "127",
       "name": "Nigeria",
       "short_code": "NG"
     },
     {
-      "id": 128,
+      "id": "128",
       "name": "Norway",
       "short_code": "NO"
     },
     {
-      "id": 129,
+      "id": "129",
       "name": "Oman",
       "short_code": "OM"
     },
     {
-      "id": 130,
+      "id": "130",
       "name": "Pakistan",
       "short_code": "PK"
     },
     {
-      "id": 131,
+      "id": "131",
       "name": "Palau",
       "short_code": "PW"
     },
     {
-      "id": 132,
+      "id": "132",
       "name": "Panama",
       "short_code": "PA"
     },
     {
-      "id": 133,
+      "id": "133",
       "name": "Papua New Guinea",
       "short_code": "PG"
     },
     {
-      "id": 134,
+      "id": "134",
       "name": "Paraguay",
       "short_code": "PY"
     },
     {
-      "id": 135,
+      "id": "135",
       "name": "Peru",
       "short_code": "PE"
     },
     {
-      "id": 136,
+      "id": "136",
       "name": "Philippines",
       "short_code": "PH"
     },
     {
-      "id": 137,
+      "id": "137",
       "name": "Poland",
       "short_code": "PL"
     },
     {
-      "id": 138,
+      "id": "138",
       "name": "Portugal",
       "short_code": "PT"
     },
     {
-      "id": 139,
+      "id": "139",
       "name": "Qatar",
       "short_code": "QA"
     },
     {
-      "id": 140,
+      "id": "140",
       "name": "Romania",
       "short_code": "RO"
     },
     {
-      "id": 141,
+      "id": "141",
       "name": "Russian Federation",
       "short_code": "RU"
     },
     {
-      "id": 142,
+      "id": "142",
       "name": "Rwanda",
       "short_code": "RW"
     },
     {
-      "id": 143,
+      "id": "143",
       "name": "Saint Kitts and Nevis",
       "short_code": "KN"
     },
     {
-      "id": 144,
+      "id": "144",
       "name": "Saint Lucia",
       "short_code": "LC"
     },
     {
-      "id": 145,
+      "id": "145",
       "name": "Saint Vincent and the Grenadines",
       "short_code": "VC"
     },
     {
-      "id": 146,
+      "id": "146",
       "name": "Samoa",
       "short_code": "WS"
     },
     {
-      "id": 147,
+      "id": "147",
       "name": "San Marino",
       "short_code": "SM"
     },
     {
-      "id": 148,
+      "id": "148",
       "name": "Sao Tome and Principe",
       "short_code": "ST"
     },
     {
-      "id": 149,
+      "id": "149",
       "name": "Saudi Arabia",
       "short_code": "SA"
     },
     {
-      "id": 150,
+      "id": "150",
       "name": "Senegal",
       "short_code": "SN"
     },
     {
-      "id": 151,
+      "id": "151",
       "name": "Serbia",
       "short_code": "RS"
     },
     {
-      "id": 152,
+      "id": "152",
       "name": "Seychelles",
       "short_code": "SC"
     },
     {
-      "id": 153,
+      "id": "153",
       "name": "Sierra Leone",
       "short_code": "SL"
     },
     {
-      "id": 154,
+      "id": "154",
       "name": "Singapore",
       "short_code": "SG"
     },
     {
-      "id": 155,
+      "id": "155",
       "name": "Slovakia",
       "short_code": "SK"
     },
     {
-      "id": 156,
+      "id": "156",
       "name": "Slovenia",
       "short_code": "SI"
     },
     {
-      "id": 157,
+      "id": "157",
       "name": "Solomon Islands",
       "short_code": "SB"
     },
     {
-      "id": 158,
+      "id": "158",
       "name": "Somalia",
       "short_code": "SO"
     },
     {
-      "id": 159,
+      "id": "159",
       "name": "South Africa",
       "short_code": "ZA"
     },
     {
-      "id": 160,
+      "id": "160",
       "name": "South Sudan",
       "short_code": "SS"
     },
     {
-      "id": 161,
+      "id": "161",
       "name": "Spain",
       "short_code": "ES"
     },
     {
-      "id": 162,
+      "id": "162",
       "name": "Sri Lanka",
       "short_code": "LK"
     },
     {
-      "id": 163,
+      "id": "163",
       "name": "Sudan",
       "short_code": "SD"
     },
     {
-      "id": 164,
+      "id": "164",
       "name": "Suriname",
       "short_code": "SR"
     },
     {
-      "id": 165,
+      "id": "165",
       "name": "Swaziland",
       "short_code": "SZ"
     },
     {
-      "id": 166,
+      "id": "166",
       "name": "Sweden",
       "short_code": "SE"
     },
     {
-      "id": 167,
+      "id": "167",
       "name": "Switzerland",
       "short_code": "CH"
     },
     {
-      "id": 168,
+      "id": "168",
       "name": "Syrian Arab Republic",
       "short_code": "SY"
     },
     {
-      "id": 169,
+      "id": "169",
       "name": "Tajikistan",
       "short_code": "TJ"
     },
     {
-      "id": 170,
+      "id": "170",
       "name": "Tanzania",
       "short_code": "TZ"
     },
     {
-      "id": 171,
+      "id": "171",
       "name": "Thailand",
       "short_code": "TH"
     },
     {
-      "id": 172,
+      "id": "172",
       "name": "Togo",
       "short_code": "TG"
     },
     {
-      "id": 173,
+      "id": "173",
       "name": "Tonga",
       "short_code": "TO"
     },
     {
-      "id": 174,
+      "id": "174",
       "name": "Trinidad and Tobago",
       "short_code": "TT"
     },
     {
-      "id": 175,
+      "id": "175",
       "name": "Tunisia",
       "short_code": "TN"
     },
     {
-      "id": 176,
+      "id": "176",
       "name": "Turkey",
       "short_code": "TR"
     },
     {
-      "id": 177,
+      "id": "177",
       "name": "Turkmenistan",
       "short_code": "TM"
     },
     {
-      "id": 178,
+      "id": "178",
       "name": "Tuvalu",
       "short_code": "TV"
     },
     {
-      "id": 179,
+      "id": "179",
       "name": "Uganda",
       "short_code": "UG"
     },
     {
-      "id": 180,
+      "id": "180",
       "name": "Ukraine",
       "short_code": "UA"
     },
     {
-      "id": 181,
+      "id": "181",
       "name": "United Arab Emirates",
       "short_code": "AE"
     },
     {
-      "id": 182,
+      "id": "182",
       "name": "United Kingdom",
       "short_code": "GB"
     },
     {
-      "id": 183,
+      "id": "183",
       "name": "United States",
       "short_code": "US"
     },
     {
-      "id": 184,
+      "id": "184",
       "name": "Uruguay",
       "short_code": "UY"
     },
     {
-      "id": 185,
+      "id": "185",
       "name": "Uzbekistan",
       "short_code": "UZ"
     },
     {
-      "id": 186,
+      "id": "186",
       "name": "Vanuatu",
       "short_code": "VU"
     },
     {
-      "id": 187,
+      "id": "187",
       "name": "Venezuela",
       "short_code": "VE"
     },
     {
-      "id": 188,
+      "id": "188",
       "name": "Vietnam",
       "short_code": "VN"
     },
     {
-      "id": 189,
+      "id": "189",
       "name": "Yemen",
       "short_code": "YE"
     },
     {
-      "id": 190,
+      "id": "190",
       "name": "Zambia",
       "short_code": "ZM"
     },
     {
-      "id": 191,
+      "id": "191",
       "name": "Zimbabwe",
       "short_code": "ZW"
     }
@@ -959,63 +959,63 @@
   "todoList": [
     {
       "id": "4",
-      "isDone": false,
+      "isDone": true,
       "title": "Submit UNIwise assignment"
     },
     {
-      "id": "5bb0",
-      "title": "Use shared components",
-      "isDone": false
-    },
-    {
       "id": "34ac",
-      "title": "Refactoring",
-      "isDone": false
+      "isDone": false,
+      "title": "Refactoring"
     },
     {
       "id": "d496",
-      "title": "Assignment 1 of UNIwise",
-      "isDone": true
+      "isDone": true,
+      "title": "Assignment 1 of UNIwise"
     },
     {
       "id": "39e0",
-      "title": "Assignment 2 of UNIwise",
-      "isDone": true
+      "isDone": true,
+      "title": "Assignment 2 of UNIwise"
     },
     {
       "id": "7462",
-      "title": "Assignment 3 of UNIwise",
-      "isDone": true
+      "isDone": true,
+      "title": "Assignment 3 of UNIwise"
     },
     {
       "id": "cfbc",
-      "title": "Assignment 3 Styling",
-      "isDone": false
+      "isDone": true,
+      "title": "Assignment 3 Styling"
     },
     {
       "id": "48e3",
-      "title": "Final Tweak",
-      "isDone": false
+      "isDone": false,
+      "title": "Final Tweak"
     },
     {
       "id": "905b",
-      "title": "Technical Interview with UNIwise",
-      "isDone": false
+      "isDone": false,
+      "title": "Technical Interview with UNIwise"
     },
     {
       "id": "a551",
-      "title": "Use shared / global styling",
-      "isDone": false
+      "isDone": true,
+      "title": "Use shared / global styling"
     },
     {
       "id": "270e",
-      "title": "Highlight searchterm for TODO app",
-      "isDone": false
+      "isDone": true,
+      "title": "Highlight searchterm for TODO app"
     },
     {
       "id": "3e1e",
-      "title": "Use Search Component in Assignment 2",
-      "isDone": false
+      "isDone": true,
+      "title": "Use Search Component in Assignment 2"
+    },
+    {
+      "id": "40ca",
+      "title": "Fix types",
+      "isDone": true
     }
   ]
 }

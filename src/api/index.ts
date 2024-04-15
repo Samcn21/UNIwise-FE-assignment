@@ -28,11 +28,10 @@ function TodoApi(instance: AxiosInstance) {
     };
 }
 
-
 const payloadInstance: AxiosInstance = Axios.create(_getConfig());
 
 const api = {
-    payload: TodoApi(payloadInstance)
+    todoApi: TodoApi(payloadInstance)
 }
 
 export default api;

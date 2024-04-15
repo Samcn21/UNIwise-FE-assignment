@@ -37,7 +37,7 @@ const Todo: FunctionComponent<ItemProps> = ({ todo, searchTerm, onToggle, onDele
         <span dangerouslySetInnerHTML={{ __html: highlightSearchTerm(todo.getTitle()) }} className={`${todo.isDone() ? 'strike-through' : ''}`}></span>
       </div>
       <div className="delete__container">
-        <FontAwesomeIcon icon={faTrash} onClick={handleDelete} className="delete-icon" />
+        <FontAwesomeIcon icon={faTrash} onClick={handleDelete} className="delete__icon" />
       </div>
     </div>
   );

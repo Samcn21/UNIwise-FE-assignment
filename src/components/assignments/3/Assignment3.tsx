@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // style
-import "../style.scss";
+import '../style.scss';
 
 // api
 import Api from '../../../api/index';
@@ -38,23 +38,24 @@ const Assignment3: React.FC = () => {
     setFilteredCompletedTodos(completedTodos.filter(todo => 
       todo.getTitle().toLowerCase().includes(searchTerm.toLowerCase())
     ));
+    
     setFilteredIncompleteTodos(incompleteTodos.filter(todo =>
       todo.getTitle().toLowerCase().includes(searchTerm.toLowerCase())
     ));
   }, [searchTerm, completedTodos, incompleteTodos]);
 
   const fetchTodos = async () => {
-    const todosResponse = await Api.payload.getTodos();
+    const todosResponse = await Api.todoApi.getTodos();
     const todoModels = new TodoModels(todosResponse);
     return todoModels.getTodos();
   };
 
   const fetchTodo = async (id: string) => {
-    return await Api.payload.getTodo(id);
+    return await Api.todoApi.getTodo(id);
   };
 
   const addTodo = async (todo: string) => {
-    const response = await Api.payload.addTodo({
+    const response = await Api.todoApi.addTodo({
       title: todo,
       isDone: false
     });
@@ -70,7 +71,7 @@ const Assignment3: React.FC = () => {
   const toggleTodo = async (id: string, isChecked: boolean) => {
     const todo = await fetchTodo(id);
     const updatedTodo = { ...todo, isDone: isChecked };
-    await Api.payload.updateTodo(id, updatedTodo);
+    await Api.todoApi.updateTodo(id, updatedTodo);
 
     const updatedTodos = todos.map(todo =>
       todo.getId() === id ? new TodoModel({
@@ -88,7 +89,7 @@ const Assignment3: React.FC = () => {
   }
 
   const deleteTodo = async (id: string) => {
-    await Api.payload.deleteTodo(id);
+    await Api.todoApi.deleteTodo(id);
     const updatedTodos = todos.filter((x) => x.getId() !== id);
     setTodos(updatedTodos);
     const updatedCompleted = updatedTodos.filter(todo => todo.isDone());

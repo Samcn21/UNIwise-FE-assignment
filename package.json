@@ -26,11 +26,11 @@
   },
   "scripts": {
     "server": "npx json-server src/data/db.json --port 5000",
-    "start": "react-scripts start",
+    "start": "concurrently \"yarn server\" \"yarn dev\"",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "concurrently \"yarn server\" \"yarn start\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

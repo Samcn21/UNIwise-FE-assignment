@@ -66,30 +66,29 @@ const Task1: FunctionComponent = () => {
   return (
     <div id="assignment-1">
       <form onSubmit={(event) => submitForm(event)}>
-        <div className="login-container">
-
+        <div className="login__container">
           <div className="form-row">
             <div>
-              <label className="field-label">Email</label>
+              <label className="field__label">Email</label>
               <span className="form-required">*</span>
             </div>
             <input
                 className={`input-field ${isEmailFormatWrong ? 'input-field--error' : ''}`}
-              name="email"
-              onFocus={handleEmailFocusChange}
-              onBlur={handleEmailBlur}
-              onChange={handleEmailChange}
-              value={email}
+                name="email"
+                onFocus={handleEmailFocusChange}
+                onBlur={handleEmailBlur}
+                onChange={handleEmailChange}
+                value={email}
             />
             {isEmailFormatWrong && <span className="form-error">Please enter a valid email address</span>}
           </div>
 
           <div className="form-row">
             <div>
-              <label className="field-label">Password</label>
+              <label className="field__label">Password</label>
               <span className="form-required">*</span>
             </div>
-            <div className="password-field-container">
+            <div className="password-field__container">
               <input
                 type={canShowPassword ? 'text' : 'password'}
                 className={`input-field ${isPasswordFieldEmpty ? 'input-field--error' : ''}`}

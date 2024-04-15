@@ -7,8 +7,8 @@ import data from "../../../data/db.json";
 import "../style.scss";
 
 // components
-import Input from "./Input";
-import List from "./List";
+import CountriesList from "./CountriesList";
+import Search from "../../utils/Search"
 
 // types
 import { Country } from "../../../types/db";
@@ -29,8 +29,8 @@ const Task2: FunctionComponent = () => {
 
   return (
     <div id="assignment-2">
-      <Input searchTerm={searchTerm} handleSearch={handleSearch} />
-      <List inventory={inventory} searchTerm={searchTerm}/>
+      <Search placeholder="Search Countries..." searchTerm={searchTerm} onSearch={handleSearch} />
+      <CountriesList inventory={inventory} searchTerm={searchTerm}/>
     </div>
   );
 };

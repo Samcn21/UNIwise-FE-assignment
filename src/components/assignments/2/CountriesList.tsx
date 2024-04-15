@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
 
 // components
-import Item from "./Item";
+import CountryItem from "./CountryItem";
 
 // types
 import type { Country } from "../../../types/db";
@@ -11,17 +11,17 @@ interface ListProps {
   searchTerm: string;
 }
 
-const List: FunctionComponent<ListProps> = ({ inventory, searchTerm }) => {
+const CountriesList: FunctionComponent<ListProps> = ({ inventory, searchTerm }) => {
   return (
     <>
       <h2>List of countries ({inventory.length})</h2>
       <ul>
         {inventory.map((country: Country) => (
-          <Item key={country.id} item={country} searchTerm={searchTerm} />
+          <CountryItem key={country.id} item={country} searchTerm={searchTerm} />
         ))}
       </ul>
     </>
   );
 };
 
-export default List;
+export default CountriesList;

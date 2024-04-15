@@ -5,7 +5,7 @@ import type { TodoResponse } from '../types/db';
 // api
 import { fetchApi } from './fetch';
 
-export default {
+const todoApi = {
     getTodos(instance: AxiosInstance) {
         return fetchApi<TodoResponse>(() => instance.get(''));
     },
@@ -22,3 +22,5 @@ export default {
       return fetchApi<TodoResponse>(() => instance.delete(`/${id}`));
     },       
 };
+
+export default todoApi;

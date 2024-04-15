@@ -7,7 +7,7 @@ interface ItemProps {
   searchTerm: string;
 }
 
-const Item: FunctionComponent<ItemProps> = ({ item, searchTerm }) => {
+const CountryItem: FunctionComponent<ItemProps> = ({ item, searchTerm }) => {
   const highlightSearchTerm = (word: string) => {
     const regex = new RegExp(`(${searchTerm})`, "gi");
     return word.replace(regex, '<span class="highlight-search-term">$1</span>');
@@ -16,4 +16,4 @@ const Item: FunctionComponent<ItemProps> = ({ item, searchTerm }) => {
   return <li dangerouslySetInnerHTML={{ __html: highlightSearchTerm(item.name) }} />;
 };
 
-export default Item;
+export default CountryItem;
