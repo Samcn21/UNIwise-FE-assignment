@@ -27,8 +27,7 @@ const Assignment3: React.FC = () => {
     const getTodos = async () => {
       const todos = await fetchTodos();
       setTodos(todos);
-      setCompletedTodos(todos.filter(todo => todo.isDone()));
-      setIncompleteTodos(todos.filter(todo => !todo.isDone()));
+      handleFilteredTodos(todos);
     };
 
     getTodos();
@@ -43,6 +42,11 @@ const Assignment3: React.FC = () => {
       todo.getTitle().toLowerCase().includes(searchTerm.toLowerCase())
     ));
   }, [searchTerm, completedTodos, incompleteTodos]);
+
+  const handleFilteredTodos = (todos: TodoModel[]): void => {
+    setCompletedTodos(todos.filter(todo => todo.isDone()));
+    setIncompleteTodos(todos.filter(todo => !todo.isDone()));
+  }
 
   const fetchTodos = async () => {
     const todosResponse = await Api.todoApi.getTodos();
@@ -61,6 +65,7 @@ const Assignment3: React.FC = () => {
     });
     const todoModel = new TodoModel(response);
     setTodos([...todos, todoModel]);
+
     if (todoModel.isDone()) {
       setCompletedTodos([...completedTodos, todoModel]);
     } else {
@@ -82,20 +87,14 @@ const Assignment3: React.FC = () => {
     );
 
     setTodos(updatedTodos);
-    const updatedCompleted = updatedTodos.filter(todo => todo.isDone());
-    const updatedIncomplete = updatedTodos.filter(todo => !todo.isDone());
-    setCompletedTodos(updatedCompleted);
-    setIncompleteTodos(updatedIncomplete);
+    handleFilteredTodos(updatedTodos);
   }
 
   const deleteTodo = async (id: string) => {
     await Api.todoApi.deleteTodo(id);
     const updatedTodos = todos.filter((x) => x.getId() !== id);
     setTodos(updatedTodos);
-    const updatedCompleted = updatedTodos.filter(todo => todo.isDone());
-    const updatedIncomplete = updatedTodos.filter(todo => !todo.isDone());
-    setCompletedTodos(updatedCompleted);
-    setIncompleteTodos(updatedIncomplete);
+    handleFilteredTodos(updatedTodos);
   }
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
